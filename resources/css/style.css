@@ -33,4 +33,12 @@ header {
 .shop-item img {
   height: 200px;
   width: 300px;
+
+}
+.locations {
+
+}
+.location-item-container  {
+  display: flex;
+  justify-content: space-around;
 }
