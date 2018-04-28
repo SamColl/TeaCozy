@@ -1,0 +1,9 @@
+div, main, header, footer   {
+  border: 1px solid black;
+}
+main,
+header,
+footer, {
+  display: flex;
+  background-color: black;
+}
