@@ -1,9 +1,23 @@
-div, main, header, footer   {
-  border: 1px solid black;
+
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+  border: 1px solid white;
 }
+
 main,
 header,
 footer, {
   display: flex;
   background-color: black;
+}
+header {
+  flex-direction: column;
+  background-color: black;
+}
+.logo {
+  background-image: url("resources/images/img-tea-cosy-logo.png");
 }
