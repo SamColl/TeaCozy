@@ -15,9 +15,22 @@ header {
 }
 .mission {
   display: flex;
-  flex-direction: column;
+
   height: 700px;
   width: 1200px;
   background-image: url("resources/images/img-mission-background.jpg");
 
+}
+.shop {
+  display: flex;
+  flex-direction: column;
+
+}
+.shop-item-container  {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.shop-item img {
+  height: 200px;
+  width: 300px;
 }
