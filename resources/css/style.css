@@ -8,16 +8,8 @@
   border: 1px solid white;
 }
 
-main,
-header,
-footer, {
+header {
   display: flex;
   background-color: black;
-}
-header {
-  flex-direction: column;
-  background-color: black;
-}
-.logo {
-  background-image: url("resources/images/img-tea-cosy-logo.png");
+  justify-content: space-between;
 }
