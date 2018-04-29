@@ -15,7 +15,6 @@ header {
   position: fixed;
   z-index: 1;
   width: 100%;
-  background-color: black;
   justify-content: space-between;
   height: 69px;
   align-items: center;
@@ -29,15 +28,22 @@ header {
 }
 .mission {
   display: flex;
-
   height: 700px;
   width: 1200px;
-  background-image: url("resources/images/img-mission-background.jpg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
 
+}
+.mission-text {
+  justify-content: center;
+  align-items: center;
 }
 .shop {
   display: flex;
   flex-direction: column;
+  width: 1000px;
 
 }
 .shop-item-container  {
