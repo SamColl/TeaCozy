@@ -3,7 +3,7 @@
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   background-color: black;
-  opacity: 0.9;
+
   color: white;
   border: 1px solid white;
 }
@@ -26,6 +26,7 @@ header {
   margin: 30px;
 
 }
+
 .mission {
   display: flex;
   height: 700px;
@@ -36,19 +37,23 @@ header {
   margin: 0px auto;
 
 }
-.mission-text {
-  justify-content: center;
-  align-items: center;
+.mission-text,
+.shop-text {
+  text-align: center;
+  width: 100%;
 }
+
 .shop {
   display: flex;
   flex-direction: column;
   width: 1000px;
+  margin: 0px auto;
 
 }
 .shop-item-container  {
   display: inline-flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .shop-item img {
   height: 200px;
