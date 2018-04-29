@@ -74,11 +74,12 @@ header {
 }
 .locations h1 {
   background-color: transparent;
+  margin: 0px;
 }
 
 .location-item-container  {
-  display: flex;
-  margin: 20px;
+ display: flex;
+  margin: 0px;
   text-align: center;
   background-color: transparent;
 
@@ -86,4 +87,5 @@ header {
 }
 .location-item {
   width: 300px;
+  margin: 15px 20px 0px 20px;
 }
