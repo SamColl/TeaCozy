@@ -4,14 +4,28 @@
   font-size: 22px;
   background-color: black;
   opacity: 0.9;
-  color: seashell;
+  color: white;
   border: 1px solid white;
 }
 
+
+
 header {
   display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   background-color: black;
   justify-content: space-between;
+  height: 69px;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 20px;
+
+}
+.menu-item {
+  margin: 30px;
+
 }
 .mission {
   display: flex;
@@ -35,9 +49,7 @@ header {
   width: 300px;
 
 }
-.locations {
 
-}
 .location-item-container  {
   display: flex;
   justify-content: space-around;
