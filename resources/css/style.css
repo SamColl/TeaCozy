@@ -3,13 +3,16 @@
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   background-color: black;
-
-  color: white;
-
+  opacity: 0.9;
+  color: seashell;
 }
-
-
-
+h2  {
+  font-size: 34px;
+}
+h4 {font-size: 22px;
+}
+h5  {font-size: 16px
+}
 header {
   display: flex;
   position: fixed;
@@ -20,15 +23,12 @@ header {
   height: 69px;
   align-items: center;
   padding-right: 10px;
-
-
 }
 .menu-item {
   margin: 30px;
-
 }
 
-.mission {
+#mission {
   display: flex;
   height: 700px;
   width: 1200px;
@@ -36,33 +36,34 @@ header {
   align-items: center;
   justify-content: center;
   margin: 0px auto;
-
 }
 .mission-text,
-.shop-text {
+.shop-text  {
   text-align: center;
   width: 100%;
 }
-
-.shop {
+#shop {
   display: flex;
   flex-direction: column;
   width: 1000px;
   margin: 0px auto;
-
+  padding: 50px 0px;
 }
 .shop-item-container  {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  bac
 }
 .shop-item img {
   height: 200px;
   width: 300px;
-
+  margin: 10px;
 }
-.locations  {
+.shop-item h4 {
+  margin-top: auto;
+}
+
+#locations  {
   display: flex;
   flex-direction: column;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
@@ -71,20 +72,16 @@ header {
   justify-content: center;
   width: 1200px;
   margin: 0 auto;
-
 }
-.locations h1 {
+#locations h2 {
   background-color: transparent;
   margin: 0px;
 }
-
 .location-item-container  {
- display: flex;
+  display: flex;
   margin: 0px;
   text-align: center;
   background-color: transparent;
-
-
 }
 .location-item {
   width: 300px;
@@ -92,7 +89,9 @@ header {
 }
 
 .contact {
-  height: 200px;
   text-align: center;
-
+}
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
